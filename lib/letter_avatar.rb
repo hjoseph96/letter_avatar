@@ -19,7 +19,7 @@ module LetterAvatar
     execute(
       # NOTE: ORDER is important!
       %W(
-        convert
+        magick convert
         #{from}
         -background transparent
         -gravity center
