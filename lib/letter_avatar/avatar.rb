@@ -67,7 +67,7 @@ module LetterAvatar
 
         LetterAvatar.execute(
           %W(
-            convert
+            magick convert
             -size #{FULLSIZE}x#{FULLSIZE}
             xc:#{to_rgb(identity.color)}
             -pointsize #{LetterAvatar.pointsize}
